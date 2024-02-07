@@ -1,0 +1,23 @@
+@import "dhtmlx-gantt/codebase/dhtmlxgantt.css";
+
+.gantt-chart {
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+.gantt-chart .gantt_add {
+	display: none !important;
+}
+
+.gantt-chart .nested_task {
+	display: none !important;
+}
+
+.gantt_grid_head_add {
+	display: none;
+}
+
+.gantt-chart .gantt_task_line {
+	background-color: #f57730;
+}
